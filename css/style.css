@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Centra';
+    src: url('../font/CentraNo2-Book.ttf');
+}
+
+*{
+    font-family: 'Centra';
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* navigation bar  */
+
+.container .nav1 {
+    background-color: rgb(250, 170, 0, 1);
+    height: 4vh;
+}
+
+.container .nav1 li{
+    list-style: none;
+}
+
+.container .nav2{
+    height: 11vh;
+    padding: 0px 50px;
+}
+.container .nav2 .img-logo{
+    height: 6rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.container .nav2 .img-logo:hover{
+    transform: scale(1.1);
+}
+
+.container .nav2 .nav-list{
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.container .nav2 .nav-list li{
+    margin-left: 50px;
+    transition: all 0.2s ease-in-out;
+}
+.container .nav2 .nav-list li:hover{
+    background-color: orange;
+    color: white;
+}
+
+.container .nav2 .nav-list li span{
+    font-size: 2rem;
+}
+
+.container .nav2 .nav-list .col{
+    background-color: orange;
+}
+
+.container .nav2 input{
+    padding-left: 10px;
+    width: 30rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    font-style: italic;
+}
+.container .nav2 input:focus{
+    box-shadow: 0px 0px 5px gray;
+}
+
+.container .nav2 .nav-icon{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+
+
+
+
+/* main  */
+
+main .main-top-head{
+    margin-top: 50px;
+}
+
+main .lol{
+    width: 8%;
+    border-top: 2px solid orange;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/* section  */
+
+section{
+    margin: 50px 20px;
+    height: 6000px;
+}
+
+section div img{
+    height: 600px;
+}
+section div h1{
+    font-style: italic;
+}
+
+section p{
+    margin: 20px;
+}
+section p img{
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+}
+section button{
+    margin-left: 200px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    font-weight: 900;
+    transition: 0.3s ease-in-out;
+}
+section button:hover{
+    background-color: orange;
+    color: black;
+}
+
+
+
+
+
+/* Footer  */
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    padding: 0px 50px;
+}
+
+footer p{
+    font-size: 1.3rem;
+}
+
+footer .icons{
+    margin: 0px 60px;
+    font-size: 2rem;
+}
+footer i{
+    padding: 10px;
+}
+footer img{
+    margin-left: 90px;
+}
+
+.fa-square-facebook,
+.fa-github,
+.fa-instagram,
+.fa-discord{
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-square-facebook:hover{
+    color: rgb(72, 115, 255);
+}
+
+.fa-github:hover{
+    color: orange;
+}
+.fa-instagram:hover{
+    color: #E1306C;
+}
+.fa-discord:hover{
+    color:rgb(153, 0, 255);
+}
